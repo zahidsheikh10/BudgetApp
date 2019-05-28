@@ -132,7 +132,7 @@ class UI {
         });
         //show value
         this.expenseInput.value = expense[0].title;
-        this.expenseInput.value = expense[1].amount;
+        this.amountInput.value = expense[0].amount;
 
         //remove from list
         let templist = this.itemList.filter(function(item){
